@@ -58,7 +58,9 @@ font-2 = Wuncon Siji:pixelsize=9;1
 modules-left = i3 mpd
 #modules-center = mpd
 #modules-right = volume wlan eth battery temperature date
-modules-right = home filesystem volume wlan eth battery temperature date
+#modules-right = home filesystem volume wlan eth battery temperature date
+modules-right = volume filesystem wlan eth battery temperature date
+
 
 tray-position = right
 tray-padding = 0
